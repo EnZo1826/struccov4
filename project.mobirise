@@ -27,7 +27,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.5",
     "siteFonts": [],
-    "uniqCompNum": 12,
+    "uniqCompNum": 14,
     "versionPublish": "4.10.5",
     "screenshot": "screenshot.png",
     "cookiesAlert": {
@@ -1183,6 +1183,23 @@
           "_anchor": "gallery1-a"
         },
         {
+          "_params": {
+            "googleMap": {
+              "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15187.921298001023!2d15.057148986544565!3d-17.886373554501198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1b93def48f261593%3A0x957f77a3bf36ae5b!2sOkahao!5e0!3m2!1sen!2sna!4v1568746921529!5m2!1sen!2sna\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\"></iframe>",
+              "placeId": "iframe",
+              "state": "ok"
+            },
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgColor": "#fff"
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map2",
+          "_anchor": "map2-c"
+        },
+        {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
@@ -1324,6 +1341,23 @@
           ],
           "_name": "gallery1",
           "_anchor": "gallery1-b"
+        },
+        {
+          "_params": {
+            "googleMap": {
+              "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7604.907984298134!2d18.606548326571147!3d-17.62864415173789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1beeef5a24cf77db%3A0x22104c5c7befcc13!2sNkurenkuru!5e0!3m2!1sen!2sna!4v1568747031092!5m2!1sen!2sna\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\"></iframe>",
+              "placeId": "iframe",
+              "state": "ok"
+            },
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgColor": "#fff"
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map2",
+          "_anchor": "map2-d"
         },
         {
           "_params": {
