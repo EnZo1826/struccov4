@@ -763,12 +763,31 @@ section.form .container {
   border-color: #0098b4;
 }
 #features3-j .features {
-  background: #f6f7f8;
+  background: #0098b4;
 }
 #features3-j .features-title {
   text-align: center;
+  color: #fffffd;
 }
 #features3-j .card-text {
+  text-align: center;
+  color: #fffffd;
+}
+#features3-j .card-title {
+  text-align: center;
+  color: #fffffd;
+}
+#features6-i .mbr-iconfont {
+  color: #0098b4;
+  border-color: #0098b4;
+}
+#features6-i .card-title B {
+  font-size: 25px;
+}
+#features6-i .heading-title {
+  text-align: center;
+}
+#features6-i .heading-text {
   text-align: center;
 }
 #form1-f .form {
@@ -931,10 +950,6 @@ section.form .container {
 }
 #menu2-a .navbar-caption {
   font-size: 20px;
-}
-#header4-m .mbr-iconfont {
-  color: undefined;
-  border-color: undefined;
 }
 #header4-m .mbr-table-cell {
   vertical-align: middle;
