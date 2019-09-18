@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "StruccoV4",
-    "currentPage": "index.html",
+    "currentPage": "AboutUs.html",
     "theme": {
       "name": "directm",
       "title": "DirectM",
@@ -28,7 +28,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.5",
     "siteFonts": [],
-    "uniqCompNum": 19,
+    "uniqCompNum": 21,
     "versionPublish": "4.10.5",
     "screenshot": "screenshot.png",
     "cookiesAlert": {
@@ -46,7 +46,7 @@
     "sitemapSwitcherAuto": "on",
     "favicon": "",
     "noImageResize": "",
-    "google-analytics": "",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-437XGCBMLJ\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'G-437XGCBMLJ');\r\n</script>",
     "sitemapSwitcher": "on"
   },
   "pages": {
@@ -227,7 +227,10 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/03.jpg"
+              "src": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-09-18-at-21.25.34-960x541.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
@@ -295,7 +298,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/mbr-1400x931.jpg",
+              "src": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-09-18-at-21.25.36-1-800x436.jpg",
               "link": "",
               "alt": "",
               "title": ""
@@ -771,6 +774,48 @@
           ],
           "_name": "header3",
           "_anchor": "header3-h"
+        },
+        {
+          "_params": {
+            "autoplay": true,
+            "timeout": "8",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "showBullets": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#5b5f6b",
+            "overlayOpacity": 0.95,
+            "slides": [
+              {
+                "active": true,
+                "showButtons": false,
+                "showImage": true,
+                "showText": true,
+                "showTitle": false,
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2019-09-18-at-21.26.22-800x539.jpg",
+                "title": "Visual Editor",
+                "contentAlign": "center",
+                "text": "<b>A project timeline is a visual, time related representation of the projects work flow. It is very important for Project Managers to develop skills to build an accurate timeline. It shows what phases are already in the past, what is in the progress now and what is supposed to be finished in future. It helps Project Managers to keep their projects on track and to be delivered on time.</b>",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black btn-black-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "alt": ""
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-k"
         },
         {
           "_params": {
